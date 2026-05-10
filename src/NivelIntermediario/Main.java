@@ -2,24 +2,26 @@ package NivelIntermediario;
 
 public class Main {
     public static void main(String[] args) {
+
+        //Objeto 1
         //Criar ninja sasuke uchiha
-        Ninjas sasuke = new Ninjas();
+        Uchiha sasuke = new Uchiha();
         sasuke.nome="Sasuke Uchiha";
         sasuke.aldeia="Aldeia da folha";
         sasuke.idade = 18;
 
         //chamando um metodo a partir de um objeto
         sasuke.SharinganAtivado();
-
-
         System.out.println("O " + sasuke.nome + " ele é da " + sasuke.aldeia + " e ele tem " + sasuke.idade + " anos");
 
-
+        //Objeto 2
         //Criando o ninja naruto
-        Ninjas naruto = new Ninjas();
+        Uzumaki naruto = new Uzumaki();
         naruto.nome = "Naruto Uzumaki";
         naruto.aldeia ="Aldeia da folha";
         naruto.idade = 18;
+        naruto.modoSabio();
+
 
         //Acessando o metodo String
         String chamandoONinja =  naruto.euSouUmNinja();
