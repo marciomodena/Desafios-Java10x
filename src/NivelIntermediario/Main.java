@@ -23,6 +23,24 @@ public class Main {
         naruto.modoSabio();
 
 
+        //Objeto3
+        Hyuga hinata = new Hyuga();
+        hinata.nome = "Hinata Hyuga";
+        hinata.aldeia = "Aldeia da Folha";
+        hinata.idade = 18;
+        hinata.
+        ByakuganAtivado();
+
+
+        //Objeto4
+        Boruto boruto = new Boruto();
+        boruto.nome="Boruto Hyuga Uzumaki";
+        boruto.aldeia="Aldeia da Folha";
+        boruto.idade=9;
+        boruto.modoSabio();
+        boruto.AtivarOKarma();
+        boruto.AtivarJougan();
+
         //Acessando o metodo String
         String chamandoONinja =  naruto.euSouUmNinja();
         System.out.println(chamandoONinja);
