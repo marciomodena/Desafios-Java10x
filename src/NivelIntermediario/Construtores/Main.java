@@ -6,12 +6,12 @@ public class Main {
         /*Construtores :
         * NoArgs Constructor: Um construtor que vem vazio nao necessariamente recebe argumento nenhum
         * AllArgs Constructor: Um construtor que é preenchido com todos os atributos da classe*/
-        Hokages Hashirama = new Hokages();
 
-        Hokages Tobirama = new Hokages("Tobirama" , 19,true);
-        System.out.println(Tobirama.nome + " " + Tobirama.idade + " e ele está " + Tobirama.vivoOuNao);
+        Senju Hashirama = new Senju("Hashirama" , 22,true);
+        System.out.println(Hashirama.nome + " " + Hashirama.idade + " e ele está " + Hashirama.vivoOuNao);
+        Hashirama.sabedoriaHokage();
 
-        Hokages Hiruzen = new Hokages("Hiruzen",19,false);
+
 
 
 

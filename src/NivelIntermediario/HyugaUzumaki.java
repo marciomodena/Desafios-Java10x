@@ -6,7 +6,7 @@ public interface HyugaUzumaki {
 
     /*Iterface não pode herdar uma classe, ela pode estender outra interface mas classe não*/
 
-    /*Interfaces não tem atributos*/
+
 
        void AtivarOKarma();
        void AtivarJougan();

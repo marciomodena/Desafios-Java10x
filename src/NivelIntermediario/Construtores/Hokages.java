@@ -1,11 +1,23 @@
 package NivelIntermediario.Construtores;
 
-public class Hokages {
+public abstract class Hokages {
+
+    /*Classes abstratas:
+    * caracteristicas: não pode criar um objeto a partir de uma classe abstrata
+    * */
+
+    /*Posso criar metodos abstratos tambem*/
+
     String nome;
     int idade;
     boolean vivoOuNao;
     String missao;
     int numeroDeMissoes;
+
+    //Metodo abstrato
+    public abstract void sabedoriaHokage();
+
+
 
     public Hokages() {
         //Construtor vazio sem argumentos

@@ -17,7 +17,9 @@ public class Ninja {
                         statusMissao
         );
     }
-    public void mostrarHabilidadeEspecial(){
+
+    public void mostrarHabilidadeEspecial() {
         System.out.println(habilidadeEspecial);
     }
 }
+
