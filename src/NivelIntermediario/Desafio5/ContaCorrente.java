@@ -21,7 +21,6 @@ public class ContaCorrente extends ContaBancaria{
     @Override
     public void depositar(double valor) {
         System.out.println("Voce depositou o valor de: " + valor);
-        saldo = saldo + (valor - valor*0.01);
         System.out.println("Seu novo saldo é de: " + saldo);
     }
     //Transferir valores:
